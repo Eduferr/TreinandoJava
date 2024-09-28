@@ -1,0 +1,15 @@
+
+public class Recursividade {
+	//Recursividade é o método chamando o próprio método
+	public static void main(String[] args) {
+		
+		imprimirNumero(0);
+
+	}
+	static void imprimirNumero(Integer numero) {
+		System.out.println("Numero: " + numero);
+		
+		imprimirNumero(++numero); //Chamando o próprio método
+	}
+
+}

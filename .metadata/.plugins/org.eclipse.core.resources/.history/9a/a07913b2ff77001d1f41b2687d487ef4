@@ -1,0 +1,15 @@
+
+public class TipoNum {
+	
+	public static void main(String[] args) {
+		
+		Byte numeroByte = 1;
+		
+		Short numeroShort = 1;
+		
+		Integer numeroInt = 1;
+		
+		Long numeroLog = 1L;
+	}
+
+}

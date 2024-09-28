@@ -1,0 +1,13 @@
+
+public class Recursividade {
+	//Recursividade é o método chamando o próprio método
+	public static void main(String[] args) {
+	// main(new String[] {"Eduardo"}); //gera erro
+
+	}
+	static void imprimirNumero() {
+		Integer numero =1;
+		System.out.println("Numero: " + numero);
+	}
+
+}

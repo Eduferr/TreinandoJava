@@ -1,0 +1,71 @@
+import java.util.Scanner;
+
+public class ExercicioCalculadora_RetornaValores {
+
+	// Crie um programa que peça dois números do usuário e também qual a operação
+	// ele deseja fazer - adição ou subtração. Para cada operação, você deve
+	// construir um método que realize a mesma, ou seja, teremos um método para
+	// adição, que vai receber dois números como parâmetros e retornar o resultado
+	// da soma entre eles, e outro método para subtração.
+	//Fique a vontade para implementar multiplicação e divisão também.
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		// Escolha a operação
+		imprimirNoConsole("Escolha o numero da operação");
+		imprimirNoConsole("----------------------------");
+		imprimirNoConsole("1 - Multiplicação");
+		imprimirNoConsole("2 - Divisão");
+		imprimirNoConsole("3 - Subtração");
+		imprimirNoConsole("4 - Adição");
+		imprimirNoConsole("5 - Resto/modulo");
+		imprimirNoConsole("----------------------------");
+
+		System.out.print("Selecione a operação desejada: ");
+		Integer operador = sc.nextInt();
+
+		Double resultado = null;
+
+		if (operador >= 1 && operador <= 5) {
+
+			imprimirNoConsole("----------------------------");
+			System.out.print("Informe o primeiro número: ");
+			Double n1 = sc.nextDouble();
+			System.out.print("Informe o segundo número: ");
+			Double n2 = sc.nextDouble();
+
+			if (operador.equals(1)) {
+				resultado = n1 * n2;
+			}
+			if (operador.equals(2)) {
+				resultado = n1 / n2;
+			}
+			if (operador.equals(3)) {
+				resultado = n1 - n2;
+			}
+			if (operador.equals(4)) {
+				resultado = n1 + n2;
+			}
+			if (operador.equals(5)) {
+				resultado = n1 % n2;
+			}
+			System.out.println("O resultado da operação é: " + resultado);
+
+		} else {
+			System.out.println("O número informado, não corresponde a um operador válido");
+		}
+
+		sc.close();
+	}
+	//Métodos
+	
+	static void tipoOperacao () {}
+	
+	
+	static void imprimirNoConsole(String texto) {
+		System.out.println(texto);
+	}
+
+}

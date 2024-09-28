@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;FuncoesString&apos; to &apos;FuncoesSintaxe&apos;&#x0D;&#x0A;- Original project: &apos;21_funcoesSintaxe&apos;&#x0D;&#x0A;- Original element: &apos;FuncoesString&apos;&#x0D;&#x0A;- Renamed element: &apos;FuncoesSintaxe&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;FuncoesString&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{FuncoesString.java[FuncoesString" matchStrategy="1" name="FuncoesSintaxe" qualified="false" references="true" similarDeclarations="false" stamp="1678220353685" textual="false" version="1.0"/>
+</session>

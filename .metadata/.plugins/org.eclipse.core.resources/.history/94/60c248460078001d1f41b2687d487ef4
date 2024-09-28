@@ -1,0 +1,19 @@
+
+public class TipoNum {
+	
+	public static void main(String[] args) {
+		
+		Byte numeroByte = 1; // -128 até 127
+		
+		Short numeroShort = 1; // -32768 até 32767
+		
+		Integer numeroInt = 1; // - 
+		
+		Long numeroLog = 1L; //
+		
+		double n1 = Math.pow(2, 31);
+		
+		System.out.println(n1);
+	}
+
+}

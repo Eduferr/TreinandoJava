@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Exercicio_Recursividade {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Informe o número: ");
+		Integer numero = sc.nextInt();
+
+		System.out.println("-----------------");
+
+		imprimirTabuada(numero, 0);
+
+		sc.close();
+
+	}
+
+	static void imprimirTabuada(Integer numeroDigitado, Integer multiplicador) {
+		System.out.println(numeroDigitado + "x" + multiplicador + "=" + (numeroDigitado * multiplicador));
+
+		if (++multiplicador< 20) {
+			
+		}
+	}
+}

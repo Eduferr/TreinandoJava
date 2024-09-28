@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;posicaoCursoEscolhido&apos; in &apos;EscolhendoBonsNomes.receberIndiceValidoDoUsuario(...)&apos; to &apos;posicaoEscolhida&apos;&#x0D;&#x0A;- Original project: &apos;12_metodos&apos;&#x0D;&#x0A;- Original element: &apos;EscolhendoBonsNomes.receberIndiceValidoDoUsuario(String[], String, Scanner).posicaoCursoEscolhido&apos;&#x0D;&#x0A;- Renamed element: &apos;posicaoCursoEscolhido&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;posicaoCursoEscolhido&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{EscolhendoBonsNomes.java[EscolhendoBonsNomes~receberIndiceValidoDoUsuario~\[QString;~QString;~QScanner;@posicaoCursoEscolhido!1735!1834!1743!1763!QInteger;!0!false" name="posicaoEscolhida" references="true" stamp="1673994011066" version="1.0"/>
+</session>

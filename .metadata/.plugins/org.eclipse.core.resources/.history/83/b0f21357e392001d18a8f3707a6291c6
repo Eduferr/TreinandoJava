@@ -1,0 +1,27 @@
+
+public class Recursividade {
+	// Recursividade é o método chamando o próprio método
+	public static void main(String[] args) {
+		// imprimirNumero(0);
+
+		String[] animais = new String[] { "Rato", "Gato", "Cachorro" };
+
+		iterarNomes(animais);
+
+	}
+
+	static void imprimirNumero(Integer numero) {
+		System.out.println("Número: " + numero);
+
+		if (numero < 10) {
+			imprimirNumero(++numero); // Chamando o próprio método
+		}
+
+	}
+
+	static void iterarNomes(String[] animais) {
+		for (int i = 0; i < animais.length; i++) {
+			System.out.println("Este animal é: " + animais[i]);
+		}
+	}
+}
